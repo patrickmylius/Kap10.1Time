@@ -23,12 +23,13 @@ public class main {
             timer.schedule(new TimerTask() {
                 @Override
                 public void run() {
-                    int a = 100;
+                    int a = 1000;
                     int b = 1;
 
                     if (a >= b)
                         b++;
 
+                    Time time1 = new Time();
                         System.out.println("Clock " + (time1.getHour() + 1) + ":" + time1.getMinute() +
                                 ":" + time1.getSecond());
 
